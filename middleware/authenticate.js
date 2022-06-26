@@ -1,6 +1,5 @@
 const passport = require("passport");
 const jwt = require("jsonwebtoken");
-// const dev = process.env.NODE_ENV !== "production";
 
 //se usa para crear la cookie del refresh token
 exports.COOKIE_OPTIONS = {
